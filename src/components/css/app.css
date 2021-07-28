@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-wrap {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 15px;
+  min-height: 100vh;
+}
