@@ -1,0 +1,28 @@
+.recent-scores-wrap {
+  padding: 0 10px;
+  width: 50%;
+}
+
+.recent-scores-wrap .recent-scores-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.recent-scores-wrap .recent-scores-list {
+  list-style-type: none;
+  border: 1px solid #000;
+}
+
+.recent-scores-wrap .recent-scores-list .recent-scores-item {
+  padding: 10px 15px;
+}
+
+.recent-scores-wrap .recent-scores-list .recent-scores-item:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.recent-scores-wrap .recent-scores-list .recent-scores-item .item-score {
+  margin-left: 10px;
+}

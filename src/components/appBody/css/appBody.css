@@ -1,0 +1,6 @@
+.app-body-wrap {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 62px;
+}

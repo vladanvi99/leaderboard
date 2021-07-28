@@ -1,0 +1,41 @@
+.add-new-score-wrap {
+  width: 50%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-new-score-wrap .add-new-score-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-new-score-wrap .add-new-score-form .add-new-score-head {
+  margin-bottom: 30px;
+}
+
+.add-new-score-wrap .add-new-score-form input {
+  display: block;
+  margin-bottom: 25px;
+  width: 300px;
+  padding: 10px 15px;
+}
+
+.add-new-score-wrap .add-new-score-form input::placeholder {
+  opacity: 1;
+}
+
+.add-new-score-wrap .add-new-score-form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.add-new-score-wrap .add-new-score-form input::-webkit-outer-spin-button,
+.add-new-score-wrap .add-new-score-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.add-new-score-wrap .add-new-score-form .add-new-score-btn {
+  display: block;
+  align-self: flex-end;
+}
