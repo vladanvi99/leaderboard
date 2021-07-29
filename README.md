@@ -8,6 +8,26 @@
 
 Here you can write and save your scores.
 
+## Setup
+
+### Clone this repository
+
+```bash
+$ git clone https://github.com/vladanvi99/leaderboard.git
+$ cd leaderboard
+```
+
+### Run project
+
+```bash
+$ npm install
+$ npm run build
+```
+### Open page in browser
+```bash
+$ open dist/index.html
+```
+
 ## Built With
 
 - HTML
