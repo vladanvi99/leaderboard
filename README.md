@@ -21,11 +21,49 @@ $ cd leaderboard
 
 ```bash
 $ npm install
-$ npm run build
+$ npm start
 ```
 ### Open page in browser
 ```bash
 $ open dist/index.html
+```
+## How to use API
+
+### Make a new game 
+
+```bash
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name: "my new game" }),
+    });
+  };
+```
+### Get data 
+
+```bash
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/idOfgame/scores/')
+      .then((response) => response.json())
+      .then((data) => {
+          console.log(data)
+      });
+
+```
+### Make a new score 
+
+```bash
+ fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/idOfGame/scores/', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ user: "name Of user", score: "score of user" }),
+    });
+
 ```
 
 ## Built With
