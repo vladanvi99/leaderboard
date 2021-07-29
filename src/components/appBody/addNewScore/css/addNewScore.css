@@ -12,13 +12,21 @@
 
 .add-new-score-wrap .add-new-score-form .add-new-score-head {
   margin-bottom: 30px;
+  color: #222;
+  font-size: 33px;
+  font-weight: 800;
 }
 
 .add-new-score-wrap .add-new-score-form input {
   display: block;
   margin-bottom: 25px;
-  width: 300px;
-  padding: 10px 15px;
+  font-size: 16px;
+  width: 320px;
+  padding: 12px 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  outline: none;
+  border-radius: 25px;
 }
 
 .add-new-score-wrap .add-new-score-form input::placeholder {
@@ -38,4 +46,19 @@
 .add-new-score-wrap .add-new-score-form .add-new-score-btn {
   display: block;
   align-self: flex-end;
+  background-color: #8a2be2;
+  border: 1px solid #8a2be2;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-new-score-wrap .add-new-score-form .add-new-score-btn:hover {
+  background-color: #fff;
+  color: #8a2be2;
+  transition: 0.3s;
 }

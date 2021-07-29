@@ -10,17 +10,38 @@
   margin-bottom: 30px;
 }
 
+.recent-scores-wrap .recent-scores-header .recent-scores-head {
+  color: #222;
+  font-size: 33px;
+  font-weight: 800;
+}
+
+.recent-scores-wrap .recent-scores-header .recent-scores-refresh {
+  background-color: #8a2be2;
+  border: 1px solid #8a2be2;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.recent-scores-wrap .recent-scores-header .recent-scores-refresh:hover {
+  background-color: #fff;
+  color: #8a2be2;
+  transition: 0.3s;
+}
+
 .recent-scores-wrap .recent-scores-list {
   list-style-type: none;
-  border: 1px solid #000;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .recent-scores-wrap .recent-scores-list .recent-scores-item {
   padding: 10px 15px;
-}
-
-.recent-scores-wrap .recent-scores-list .recent-scores-item:nth-child(even) {
-  background-color: #f1f1f1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .recent-scores-wrap .recent-scores-list .recent-scores-item .item-score {
