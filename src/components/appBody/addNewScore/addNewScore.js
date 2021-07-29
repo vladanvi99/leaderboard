@@ -6,7 +6,7 @@ const addNewScore = () => {
 <h2 class="add-new-score-head">Add new score</h2>
 <input type="text" name="name" require placeholder="Your name" />
 <input type="number" name="score" require placeholder="Your score" />
-<button class="add-new-score-btn" type="submit">Submit</button>
+<button class="add-new-score-btn" type="button">Submit</button>
 </form>
 </div>`;
   return addNewScoreElement;
